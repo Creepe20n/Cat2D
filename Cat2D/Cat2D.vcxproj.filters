@@ -18,5 +18,16 @@
     <ClInclude Include="src\Cat2D\core.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\Cat2D\Application.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Cat2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Cat2D\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
