@@ -1,3 +1,2 @@
-﻿     Creating library F:\General Programming\C++\Cat2D\bin\Debug-x64\Cat2D\Cat2D.lib and object F:\General Programming\C++\Cat2D\bin\Debug-x64\Cat2D\Cat2D.exp
-Application.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) const Cat2D::Application::`vftable'" (__imp_??_7Application@Cat2D@@6B@) referenced in function "public: __cdecl Cat2D::Application::Application(void)" (??0Application@Cat2D@@QEAA@XZ)
-F:\General Programming\C++\Cat2D\bin\Debug-x64\Cat2D\Cat2D.dll : fatal error LNK1120: 1 unresolved externals
+﻿  Application.cpp
+  Cat2D.vcxproj -> F:\General Programming\C++\Cat2D\bin\Debug-x64\Cat2D\Cat2D.dll

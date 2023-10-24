@@ -9,6 +9,8 @@ namespace Cat2D {
 
 		void Run();
 	};
+	//To be deffined in Client
+	Application* CreateApplication();
 }
 
 

@@ -1,3 +1,2 @@
 ﻿  Sandbox.cpp
-F:\General Programming\C++\Cat2D\Sandbox\src\Sandbox.cpp(12,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
   Sandbox.vcxproj -> F:\General Programming\C++\Cat2D\bin\Debug-x64\Sandbox\Sandbox.exe

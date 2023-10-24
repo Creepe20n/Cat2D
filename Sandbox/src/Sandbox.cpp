@@ -9,8 +9,7 @@ public:
 
 	}
 };
-void main() {
-	Sandbox* sandbox = new Sandbox();
-	sandbox->Run();
-	delete sandbox;
+
+Cat2D::Application* Cat2D::CreateApplication() {
+	return new Sandbox();
 }

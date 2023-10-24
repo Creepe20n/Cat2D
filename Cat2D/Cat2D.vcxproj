@@ -14,6 +14,7 @@
     <ClInclude Include="src\Cat2D\Application.h" />
     <ClInclude Include="src\Cat2D.h" />
     <ClInclude Include="src\Cat2D\core.h" />
+    <ClInclude Include="src\Cat2D\EntryPoint.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Cat2D\Application.cpp" />
@@ -63,7 +64,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>CT_PLATFORM_WINDOWS;CT_BUILD_DLL_WINDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>CT_PLATFORM_WINDOWS;CT_BUILD_DLL;_WINDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -77,7 +78,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>CT_PLATFORM_WINDOWS;CT_BUILD_DLL_WINDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>CT_PLATFORM_WINDOWS;CT_BUILD_DLL;_WINDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
